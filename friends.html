@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Friends</title>
 </head>
 <body>
-  <header>
+  <header class='top-header'>
     <div class="header__top">
       <div class="header__column">
         <i class="fas fa-plane"></i>
@@ -28,7 +29,7 @@
         <span class="header__text">Manage</span>
       </div>
       <div class="header__column">
-        <span class="header_text">Friend1</span>
+        <span class="header__text">Friend <span class="header__number">1</span></span>
       </div>
       <div class="header__column">
         <i class="fas fa-cog fa-lg"></i>
@@ -59,17 +60,17 @@
       <header class="friens__header">
         <h6 class="friens__title">Friends</h6>
       </header>
-      <div class="friens__rows">
-        <div class="friens__row">
+      <div class="friends__rows">
+        <div class="friends__row">
           <img src="" alt="">
-          <span class="friens_name">Nicolas</span>
-          <span class="friens_tangle">Life is short. So live your life.</span>
+          <span class="friends_name">Nicolas</span>
+          <span class="friends_tangle">Life is short. So live your life.</span>
         </div>
       </div>
     </section>
   </main>
   <nav class="tab-bar">
-    <a href="friends.html" class="tab-bar__tab">
+    <a href="friends.html" class="tab-bar__tab tab-bar__tab--selected">
       <i class="fas fa-user"></i>
       <span class="tab-bar__title">Friends</span>
     </a>
